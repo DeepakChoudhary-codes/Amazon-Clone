@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+     <!-- sign up box -->
+
+        <div class="signup-box">
+            <div class="outer-logo-box">     
+                <a href="index.html">
+                    <img src="images/amazon_logo - black.png" class="logo">
+                </a>
+            </div>
+
+            <div class="outer-signup-box">
+                <div class="inner-signup-box">
+                    <div class="signup-content">
+                    <h1>Create account</h1>
+                    <form id="signup-form">
+                        <p id="id">Enter mobile number or email</p>
+                        <input type="text" class="input-field idInput"><br><br>
+                        <small class="error" id="inputError"></small>
+
+                        <p id="id">Your name</p>
+                        <input type="text" class="input-field nameInput" placeholder="First and last name"><br><br>
+                        <small class="error" id="nameError"></small>
+                        
+                        <p id="id">Password (at least 6 characters)</p>
+                        <input type="password" class="input-field passwordInput"><br><br>
+                        <small class="error" id="passwordError"></small>
+                        
+                        <div class="add-icon" style="height: 32px; font-size: 12px; padding-bottom: 20px;">
+                            <i class="fa-solid fa-circle-info"></i>
+                            <p>Passwords must be at least 6 characters.</p>
+                        </div>
+                        
+                        <p id="id">Re-enter password</p>
+                        <input type="password" class="input-field reEnterInput"><br><br>
+                        <small class="error" id="reEnterError"></small>
+                        <input type="submit" value="Continue" class="submit-btn"><br><br>
+                    </form>
+
+                    <hr style="margin-bottom: 14px;">
+                    
+                    <div class="toggle" style="margin-bottom: 16px;">
+                    <p id="id" style="margin: 0; ">Already a customer?</p>
+                    <a href="login.html">Sign in instead</a>
+                    </div>
+                    <p id="end">By continuing, you agree to Amazon's <a href="#">Conditions of Use</a> and <a href="#">Privacy Notice</a>.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <hr>
+        
+        <footer>
+            <div class="footer">
+                <div class="pages">
+                    <a>Conditions of Use</a>
+                    <a>Privacy Notice</a>
+                    <a>Help</a>
+                    
+                    <div class="copyright">
+                    © 1996-2026, Amazon.com, Inc. or its affiliates
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
